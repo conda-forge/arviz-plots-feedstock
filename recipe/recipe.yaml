@@ -5,8 +5,8 @@ context:
   version: "1.0.0"
   python-min: "3.12"
 
-recipe:
-  name: arviz-plots-suite
+package:
+  name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
@@ -16,8 +16,6 @@ source:
 build:
   number: 0
 
-package:
-  name: arviz-plots
 
 build:
   noarch: python
