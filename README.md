@@ -3,7 +3,7 @@ About arviz-plots-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/arviz-plots-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/arviz-devs/arviz-plots
+Home: https://www.arviz.org/
 
 Package license: Apache-2.0
 
@@ -11,7 +11,7 @@ Summary: ArviZ-plots provides ready to use and composable plots for Bayesian Wor
 
 Development: https://github.com/arviz-devs/arviz-plots
 
-Documentation: https://arviz-plots.readthedocs.io
+Documentation: https://python.arviz.org/projects/plots/en/stable
 
 Current build status
 ====================
