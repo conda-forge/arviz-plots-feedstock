@@ -22,8 +22,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - arviz-base >=1.0,<1.1
-    - arviz-stats >=1.0,<1.1
+    - arviz-base >=1.0.0,<1.1.0
+    - arviz-stats >=1.0.0,<1.1.0
 
 test:
   imports:
