@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: arviz-plots
-  version: "1.0.0"
-  python_min: "3.12"
+  version: 1.1.0
+  python_min: '3.12'
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/arviz_plots-${{ version }}.tar.gz
-  sha256: e8bb70824b50f09f7c527dac4519aef1b72cb0a9eadcd4da25b80c22a4bcef71
+  sha256: c2d213364c5eaadfe890b1f871849d4317dec5260f79f26e30976159c132a351
 
 build:
   number: 0
@@ -26,9 +26,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - arviz-base >=1.0.0,<1.1.0
-    - arviz-stats >=1.0.0,<1.1.0
-
+    - arviz-base >=1.1,<1.2
+    - arviz-stats >=1.1,<1.2
 tests:
   - python:
       imports:
